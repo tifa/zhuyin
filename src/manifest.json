@@ -31,14 +31,16 @@
         "fonts/ToneOZ-Zhuyin-Kai-Traditional.ttf"
       ],
       "matches": [
-        "<all_urls>"
+        "http://*/*",
+        "https://*/*"
       ]
     }
   ],
   "content_scripts": [
     {
       "matches": [
-        "<all_urls>"
+        "http://*/*",
+        "https://*/*"
       ],
       "js": [
         "zhuyin.js"
