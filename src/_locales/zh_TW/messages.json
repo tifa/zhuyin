@@ -1,0 +1,10 @@
+{
+    "description": {
+        "message": "在繁體中文字符旁顯示注音符號。",
+        "description": "擴充功能描述。"
+    },
+    "title": {
+        "message": "注音",
+        "description": "擴充功能標題。"
+    }
+}

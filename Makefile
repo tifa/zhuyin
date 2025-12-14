@@ -4,8 +4,8 @@ SRC_DIR := src
 PACKAGED_FILE := zhuyin.zip
 
 clean:
-	@rm -rf $(BUILD_DIR) $(DIST_DIR) $(PACKAGED_FILE)
-	@echo "✓ Cleaned build directory"
+	@git clean -fXd
+	@echo "✓ Cleaned environment"
 
 build: clean
 	@mkdir -p $(BUILD_DIR)

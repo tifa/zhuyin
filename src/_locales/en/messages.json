@@ -1,0 +1,10 @@
+{
+    "description": {
+        "message": "Display Zhuyin Fuhao (bopomofo) next to Traditional Chinese characters.",
+        "description": "Extension description."
+    },
+    "title": {
+        "message": "Zhuyin",
+        "description": "Extension title."
+    }
+}
