@@ -28,9 +28,11 @@ Click on the now-visible "Load unpacked" button and open the build directory.
 
 ## Release
 
+Update the `version` in `./src/manifest.json`.
+
 Create the release package.
 
-```
+```sh
 make dist
 ```
 
