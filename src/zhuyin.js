@@ -11,7 +11,7 @@ function updateZhuyinFont(enabled) {
 
     const fontFace = new FontFace(
         'ZhuyinKai',
-        `url(${chrome.runtime.getURL('fonts/ToneOZ-Zhuyin-Kai-Traditional.ttf')})`
+        `url(${chrome.runtime.getURL('fonts/BpmfGenSenRounded/BpmfGenSenRounded-R.ttf')})`
     );
 
     fontFace.load().then(loadedFace => {
