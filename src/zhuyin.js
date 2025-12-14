@@ -10,7 +10,7 @@ function updateZhuyinFont(enabled) {
     }
 
     const fontFace = new FontFace(
-        'ZhuyinKai',
+        'BpmfGenSenRounded',
         `url(${chrome.runtime.getURL('fonts/BpmfGenSenRounded/BpmfGenSenRounded-R.ttf')})`
     );
 
@@ -20,11 +20,11 @@ function updateZhuyinFont(enabled) {
         style.id = 'zhuyin-style';
         style.textContent = `
         html, body, * {
-            font-family: 'ZhuyinKai' !important;
+            font-family: 'BpmfGenSenRounded' !important;
         }
         `;
         document.head.appendChild(style);
-        console.log('ZhuyinKai font applied globally.');
+        console.log('Font applied globally.');
     }).catch(err => {
         console.error('Failed to load font:', err);
     });
